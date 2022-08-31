@@ -1,0 +1,24 @@
+/* Armando mobile first css*/
+.lb-container,
+.grams-container,
+.oz-container {
+  border: solid 5px white;
+  width: 100%;
+  margin: 10px;
+}
+#output {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.result-header,
+.result {
+  text-align: center;
+  padding: 15px;
+}
+
+.result {
+  color: white;
+  font-size: 4em;
+}
